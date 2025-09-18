@@ -6,8 +6,8 @@ Andrés Enrique Jaime de la Rosa, 763799
 
 
 # Entradas
-hrt=int(input("Horas trabajadas: "))
-tarifa = int(input("Tarifa por hora: "))
+hrt=float(input("Horas trabajadas: "))
+tarifa = float(input("Tarifa por hora: "))
 # Proceso
 if hrt > 48:
     hrt = hrt - 48
