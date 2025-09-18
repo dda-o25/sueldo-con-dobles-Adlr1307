@@ -10,12 +10,13 @@ hrt=float(input("Horas trabajadas: "))
 tarifa = float(input("Tarifa por hora: "))
 # Proceso
 if hrt > 48:
-    hrt = hrt - 48
-    print("Horas extras",hrt)
-    hex = tarifa *2* hrt
-    print("Sueldo por horas extras:",hex)
-    hrt = hrt+48
-    stotal = hrt*tarifa+hex
+    hext = hrt-48
+    hexp = hext*tarifa*2
+    print("Horas extras",hext)
+    print("Sueldo por horas extras:",hexp)
+    hpn = 48
+    snormal = hpn*tarifa
+    stotal= snormal+hexp
     print("Sueldo total:",stotal)
 else:
     print("Horas extras: 0")
