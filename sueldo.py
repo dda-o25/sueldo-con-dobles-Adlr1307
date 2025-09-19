@@ -1,5 +1,8 @@
 """
 Andrés Enrique Jaime de la Rosa, 763799
+18/09/25
+El propósito de este código es calcular la paga con y sin horas extra
+Tambíen calcula horas extra
 """
 
 
